@@ -14,3 +14,6 @@ for (int i=0; i< lista.length;i++){
 for (var i : lista2){
   sout(" lista: "+ i;
   }
+
+// linea codigo para saber el tipo de variable en este caso String[ ]
+System.out.println(((Object)tienda).getClass().getSimpleName());
