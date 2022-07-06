@@ -19,7 +19,7 @@ public class Array1 {
             j++;
 
         }
-        
+        // saber el tipo de variable
         System.out.println(((Object)tienda).getClass().getSimpleName());
         System.out.println(((Object)tienda2).getClass().getSimpleName());
     }
